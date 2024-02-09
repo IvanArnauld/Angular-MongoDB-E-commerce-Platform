@@ -38,3 +38,27 @@ Express
 MongoDB
 Angular Material Components
 
+Running Tests
+To ensure the stability and reliability of the application, I included end-to-end tests using Cypress. Follow the steps below to run the tests:
+
+Ensure the Angular development server and the back-end server are running.
+
+Open a new terminal window and navigate to the cypress directory:
+
+bash
+Copy code
+cd cypress
+Install Cypress dependencies:
+
+bash
+Copy code
+npm install
+Open the Cypress test runner:
+
+bash
+Copy code
+npm run cypress:open
+In the Cypress window, click on the test file you want to run (vendors.spec.js, products.spec.js, etc.).
+
+Cypress will open a new browser window and execute the tests, providing real-time feedback.
+
